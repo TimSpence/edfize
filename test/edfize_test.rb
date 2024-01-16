@@ -38,6 +38,6 @@ class EdfizeTest < Minitest::Test
   end
 
   def test_run_command
-    assert_equal %w(invalid-date.edf simulated-01.edf zero-data-records.edf), Edfize.launch(["r"]).sort
+    assert_equal %w(invalid-date.edf ma0844az_1-1+.edf simulated-01.edf test_generator_2.edf zero-data-records.edf), Edfize.launch(["r"]).sort
   end
 end
