@@ -20,6 +20,8 @@ tmp
 *.o
 *.a
 mkmf.log
+tags
+*~
 
 # OS generated files #
 .DS_Store
