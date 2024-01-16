@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "edfize/edf"
+require "edfize/edfplus"
 require "edfize/tests"
 require "edfize/version"
 require "edfize/color"
